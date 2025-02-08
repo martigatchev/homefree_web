@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Set Tailwind font classes */
+@layer base {
+  :root {
+    --font-domine: "Domine", serif;
+    --font-maitree: "Maitree", serif;
+    --font-sen: "Sen", sans-serif;
+  }
+
+  .font-domine {
+    font-family: var(--font-domine);
+  }
+
+  .font-maitree {
+    font-family: var(--font-maitree);
+  }
+
+  .font-sen {
+    font-family: var(--font-sen);
+  }
+}
+
+/* Default styles */
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+}
