@@ -6,8 +6,7 @@ import {
   Input,
   Image,
   Link,
-  List,
-  ListItem,
+
 } from "@chakra-ui/react";
 import TestimonialSection from "@/components/testimonial_section";
 import Footer from "@/components/footer";
